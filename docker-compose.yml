@@ -5,18 +5,20 @@ services:
     restart: always
     ports:
       - "8080:8080"
+    env_file:
+      - .env
     environment:
-      - SERVER_URL=http://localhost:8080
-      - AUTHENTICATION_TYPE=apikey
-      - AUTHENTICATION_API_KEY=evolution-key-2024
-      - AUTHENTICATION_EXPOSE_IN_FETCH_INSTANCES=true
-      - LANGUAGE=pt-BR
-      - LOG_LEVEL=LOG
-      - DEL_INSTANCE=false
-      - STORE_MESSAGES=true
-      - STORE_MESSAGE_UP=true
-      - STORE_CONTACTS=true
-      - STORE_CHATS=true
+      SERVER_URL: ${SERVER_URL:-http://localhost:8080}
+      AUTHENTICATION_TYPE: ${AUTHENTICATION_TYPE:-apikey}
+      AUTHENTICATION_API_KEY: ${AUTHENTICATION_API_KEY:-troque-esta-chave}
+      AUTHENTICATION_EXPOSE_IN_FETCH_INSTANCES: ${AUTHENTICATION_EXPOSE_IN_FETCH_INSTANCES:-true}
+      LANGUAGE: ${LANGUAGE:-pt-BR}
+      LOG_LEVEL: ${LOG_LEVEL:-LOG}
+      DEL_INSTANCE: ${DEL_INSTANCE:-false}
+      STORE_MESSAGES: ${STORE_MESSAGES:-true}
+      STORE_MESSAGE_UP: ${STORE_MESSAGE_UP:-true}
+      STORE_CONTACTS: ${STORE_CONTACTS:-true}
+      STORE_CHATS: ${STORE_CHATS:-true}
     volumes:
       - evolution_instances:/evolution/instances
       - evolution_store:/evolution/store

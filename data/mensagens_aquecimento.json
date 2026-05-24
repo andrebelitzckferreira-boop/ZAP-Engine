@@ -1,0 +1,53 @@
+{
+  "abertura": [
+    "Boa tarde, tudo bem?\nVi seu contato aqui da região e queria te fazer uma pergunta rapidinha… você ainda tem veículo?",
+    "Opa, André da Simples Brasil aqui.\nTô fazendo umas cotações essa semana pro pessoal da região, qual carro você usa hoje?",
+    "Boa noite 🙂\nVi que você é aqui do Campo das Vertentes também.\nVocê tem veículo próprio atualmente?",
+    "Oi, tudo certo?\nConsegue me falar qual veículo você usa hoje? Tô liberando umas condições boas essa semana.",
+    "Fala meu amigo, beleza?\nTrabalho com proteção veicular aqui na região e tô atualizando umas cotações hoje.\nQual carro você tem atualmente?",
+    "Olá, tudo bem com você?\nSou o André, trabalho com proteção veicular aqui no Campo das Vertentes.\nVocê tem veículo?",
+    "Boa tarde!\nAndré aqui da Simples Brasil.\nTô organizando umas cotações essa semana pra pessoal da região, ainda tem carro?",
+    "Oi! André aqui.\nTrabalho com proteção veicular e tô atendendo pessoal da região esta semana.\nVocê tem veículo próprio?",
+    "E aí, tudo na paz?\nAndré aqui, da Simples Brasil.\nVocê utiliza veículo próprio atualmente?",
+    "Boa tarde 😊\nTô passando pra saber se você ainda tem veículo por aí.\nSou o André, trabalho com proteção veicular na região."
+  ],
+  "followup_visualizou": [
+    "Oi, viu minha mensagem?\nSem pressa, só queria saber se você tem veículo pra te passar uma condição boa.",
+    "E aí, conseguiu ver minha mensagem de ontem?\nQualquer hora que puder me fala qual carro você tem.",
+    "Opa! Tô por aqui caso queira uma cotação.\nSó me fala o veículo quando tiver um tempinho 😊",
+    "Vi que você viu a mensagem.\nSem pressão nenhuma, só me fala o carro quando quiser.",
+    "Fala aí quando puder!\nSó queria saber se você tem veículo pra ver o que consigo pra você."
+  ],
+  "followup_frio": [
+    "Tudo bem por aí?\nJá tem alguma proteção pro seu veículo ou ainda não?",
+    "Fala aí, conseguiu pensar?\nPosso fazer uma cotação rápida sem compromisso nenhum.",
+    "E aí meu amigo, sumiu rsrs\nAinda tô aqui caso queira uma cotação do veículo.",
+    "Oi! Ainda to fazendo cotações essa semana.\nConsegue me falar o modelo do seu carro?",
+    "Qualquer coisa me chama!\nTô aqui pra ajudar com a proteção do seu veículo."
+  ],
+  "reativacao": [
+    "Fala! Faz um tempo que não conversamos.\nAinda tem o veículo? Tô com condições novas essa semana.",
+    "Oi! André da Simples Brasil.\nTô atualizando cotações da região, ainda tem carro?",
+    "E aí, tudo bem?\nLembro que conversamos antes. Ainda tem interesse em proteção veicular?",
+    "Boa tarde! Voltei por aqui.\nTemos condições melhores esse mês. Qual veículo você tem hoje?"
+  ],
+  "pedir_placa": [
+    "Me passa a placa ou o modelo e ano do veículo que já consulto aqui pra você.",
+    "Qual é o modelo e ano do seu carro? Com isso já consigo uma cotação certinha.",
+    "Me fala o carro e o ano que já vejo o que consigo pra você 😊",
+    "Se você tiver a placa facilita, mas pode me passar o modelo e ano também.",
+    "Pode me passar o modelo do veículo? Com o ano também ajuda bastante."
+  ],
+  "interessado": [
+    "Que bom! Me passa o modelo e ano do veículo que já faço a cotação aqui.",
+    "Ótimo! Qual é o carro pra eu ver a condição certinha pra você?",
+    "Show! Me fala o veículo que já consulto aqui rapidinho.",
+    "Perfeito! Só preciso do modelo e ano do carro pra fechar a cotação."
+  ],
+  "fechamento_leve": [
+    "Então tô te mandando os detalhes. Quer que eu já reserve essa condição pra você?",
+    "Se quiser seguir em frente é só me falar.\nPosso deixar tudo pronto hoje mesmo.",
+    "Quer que eu já encaminhe a proposta completa?\nSem compromisso, pode analisar com calma.",
+    "Essa condição tá boa. Posso te mandar a proposta formal pra você ver?"
+  ]
+}
