@@ -92,7 +92,7 @@ def salvar_qrcode_html(base64_qr: str):
   <h2>📲 Escaneie com o WhatsApp</h2>
   <p>Abra o WhatsApp → Menu → Dispositivos Conectados → Conectar dispositivo</p>
   <img src="data:image/png;base64,{base64_qr}" alt="QR Code"/>
-  <p style="margin-top:16px; color:#666;">Após escanear, feche esta janela e rode: <code>python main.py</code></p>
+  <p style="margin-top:16px; color:#666;">Após escanear, feche esta janela e rode: <code>iniciar_sistema.bat</code> ou <code>python -m panel.server</code></p>
 </body>
 </html>"""
 
@@ -156,10 +156,10 @@ def main():
         print(f"   Estado atual: {estado}")
         if estado == "open":
             print("\n✅ WhatsApp conectado com sucesso!")
-            print("   Agora rode: python main.py")
+            print("   Agora rode: iniciar_sistema.bat ou python -m panel.server")
             break
     else:
-        print("\n⚠️  Tempo esgotado. Se já escaneou, tente: python main.py mesmo assim.")
+        print("\n⚠️  Tempo esgotado. Se já escaneou, tente: iniciar_sistema.bat ou python -m panel.server.")
 
 
 if __name__ == "__main__":

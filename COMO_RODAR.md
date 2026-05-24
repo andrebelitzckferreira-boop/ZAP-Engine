@@ -1,62 +1,47 @@
-# 📲 Disparo WhatsApp — Evolution API
+# Como Rodar
 
-## ▶️ Como rodar (3 passos)
+## Local
 
-### Passo 1 — Suba o Docker
-Abra o terminal na pasta do projeto e rode:
-```
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+copy .env.example .env
 docker compose up -d
-```
-Aguarde baixar a imagem (~1 min na primeira vez).
-
----
-
-### Passo 2 — Conecte o WhatsApp
-```
 python setup_instancia.py
-```
-Vai abrir automaticamente no navegador uma página com o **QR Code**.
-Escaneie com o WhatsApp: **Menu → Dispositivos Conectados → Conectar dispositivo**
-
----
-
-### Passo 3 — Use o sistema
-```
-python main.py
-```
-Menu interativo com importação de contatos e disparo em massa.
-
----
-
-## ⚙️ Configurações (já preenchidas)
-
-| Variável | Valor |
-|---|---|
-| API URL | http://localhost:8080 |
-| API Key | evolution-key-2024 |
-| Instância | meu-whatsapp |
-
-Tudo definido no `docker-compose.yml` e `config/settings.py` — **não precisa mudar nada**.
-
----
-
-## 📋 Formato do CSV para importar contatos
-
-```
-nome,telefone
-João Silva,11999999999
-Maria Oliveira,11988888888
+python -m panel.server
 ```
 
-Use `{nome}` na mensagem para personalizar: `Olá, {nome}! Temos uma oferta pra você.`
+Abra `http://localhost:5000`.
 
----
+## Painel
 
-## ⏱️ Delay humano
+- Dashboard: status do WhatsApp, pendentes, enviados, respondidos e erros.
+- Importar contatos: CSV/XLSX.
+- Novo Disparo: mensagens, delays, limites, pausa/retomada/parada.
+- Anti-Ban: limites diários, por hora, cooldown e aquecimento.
+- IA & Chatbot: chave Groq, webhook e contexto comercial.
 
-No disparo você configura:
-- **Msgs por lote** — ex: 10
-- **Delay entre mensagens** — ex: 5 segundos
-- **Delay entre lotes** — ex: 180 segundos (3 minutos)
+## Cloud
 
-O sistema aplica ±20% de variação aleatória pra parecer humano.
+Para teste gratuito, use Render Free para o painel e Supabase Free para o banco. Configure `DATABASE_URL`, `PUBLIC_BASE_URL`, `PANEL_USERNAME`, `PANEL_PASSWORD`, `WEBHOOK_SECRET`, `EVOLUTION_API_URL`, `EVOLUTION_API_KEY`, `INSTANCE_NAME` e `GROQ_API_KEY`.
+
+Importante: planos gratuitos podem hibernar. Se a Evolution API dormir, o WhatsApp pode desconectar e pedir QR Code novamente.
+
+## Executável Windows
+
+1. Gere o build:
+
+```bash
+gerar_exe.bat
+```
+
+2. Inicie o sistema:
+
+```bash
+iniciar_sistema.bat
+```
+
+O executável final fica em `dist\ZAP_ENGINE.exe`.
+
+Deixe o arquivo `.env` na mesma pasta do executável para que as variáveis sejam lidas corretamente.

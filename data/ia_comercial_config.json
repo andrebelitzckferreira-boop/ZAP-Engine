@@ -1,0 +1,206 @@
+{
+  "ia": {
+    "cooldowns_horas": {
+      "abertura": 24,
+      "cta": 12,
+      "reabertura": 24,
+      "reengajamento": 72,
+      "repeticao": 48
+    },
+    "emojis": {
+      "leve": [
+        "🙂",
+        "👋",
+        "😊",
+        "😉"
+      ],
+      "cta": [
+        "1️⃣",
+        "2️⃣",
+        "3️⃣",
+        "4️⃣"
+      ],
+      "fechamento": [
+        "✅",
+        "📌",
+        "💬"
+      ]
+    },
+    "templates_lead_frio": [
+      "Ol?, {nome}! Tudo bem? ??\n\nMeu nome ? Andr? e fa?o parte da Associa??o Simples Brasil Prote??o Veicular aqui da regi?o.\n\nHoje estamos ajudando motoristas a terem uma prote??o mais acess?vel e com atendimento mais pr?ximo.\n\nMe conta uma coisa:\n\n1?? J? possuo prote??o/seguro\n2?? Ainda n?o tenho",
+      "Oi, {nome}! Tudo certo? ??\n\nAqui ? da Simples Brasil Prote??o Veicular.\n\nEstamos entrando em contato com alguns motoristas da regi?o para apresentar uma op??o de prote??o mais acess?vel e humanizada.\n\nHoje seu ve?culo:\n\n1?? J? possui seguro/prote??o\n2?? Ainda n?o possui",
+      "Ol?, {nome}! ??\n\nSou da Associa??o Simples Brasil Prote??o Veicular.\n\nEstamos iniciando um atendimento aqui na regi?o com foco em prote??o veicular mais acess?vel e suporte humanizado.\n\nSeu ve?culo hoje:\n\n1?? J? est? protegido\n2?? Ainda n?o possui prote??o",
+      "Oi, {nome}! Tudo bem com voc?? ??\n\nAqui ? da Simples Brasil Prote??o Veicular.\n\nEstamos conversando com alguns propriet?rios de ve?culos da regi?o para entender quem j? possui prote??o e quem ainda busca uma op??o mais acess?vel.\n\nMe responde rapidinho:\n\n1?? J? tenho prote??o/seguro\n2?? N?o tenho ainda",
+      "Ol?, {nome}! ??\n\nPassando para me apresentar.\nSou consultor da Simples Brasil Prote??o Veicular aqui da regi?o.\n\nHoje muita gente est? migrando do seguro tradicional para op??es mais acess?veis com assist?ncia 24h e atendimento mais pr?ximo.\n\nSeu ve?culo atualmente:\n\n1?? J? possui cobertura\n2?? Ainda n?o possui",
+      "Oi, {nome}! Tudo certo? ??\n\nAqui ? da Simples Brasil Prote??o Veicular.\n\nEstamos realizando um atendimento regional para ajudar motoristas a protegerem seus ve?culos com valores mais acess?veis.\n\nHoje voc?:\n\n1?? J? possui seguro/prote??o\n2?? Ainda n?o protege o ve?culo",
+      "Ol?, {nome}! ??\n\nMeu nome ? Andr? e fa?o parte da Simples Brasil Prote??o Veicular.\n\nEstamos atendendo motoristas aqui da regi?o com planos mais acess?veis e assist?ncia 24h.\n\nS? me responde uma coisa para eu te orientar melhor:\n\n1?? J? tenho prote??o\n2?? N?o tenho prote??o",
+      "Oi, {nome}! Tudo bem? ??\n\nAqui ? da Simples Brasil Prote??o Veicular.\n\nNosso objetivo ? ajudar motoristas da regi?o a economizarem sem deixar o ve?culo desprotegido.\n\nHoje seu carro:\n\n1?? J? possui seguro/prote??o\n2?? Ainda n?o possui",
+      "Ol?, {nome}! ??\n\nEstamos apresentando a Simples Brasil Prote??o Veicular para alguns motoristas da regi?o.\n\nTrabalhamos com prote??o mais acess?vel, assist?ncia 24h e atendimento humanizado.\n\nSeu ve?culo hoje:\n\n1?? J? possui prote??o\n2?? Ainda n?o possui",
+      "Oi, {nome}! Tudo certo? ??\n\nAqui ? da Simples Brasil Prote??o Veicular.\n\nEstamos iniciando um atendimento regional para apresentar uma alternativa mais acess?vel de prote??o veicular.\n\nMe responde rapidinho:\n\n1?? J? tenho seguro/prote??o\n2?? Ainda n?o tenho",
+      "Ol?, {nome}! ??\n\nAqui ? da Simples Brasil Prote??o Veicular.\n\nEstamos ajudando motoristas da regi?o a conhecer op??es de prote??o mais acess?veis e com suporte mais pr?ximo no dia a dia.\n\nHoje voc?:\n\n1?? J? possui prote??o no ve?culo\n2?? Ainda n?o possui",
+      "Oi, {nome}! ??\n\nTudo bem?\n\nSou da Simples Brasil Prote??o Veicular e estamos fazendo um atendimento regional para apresentar nossa prote??o com assist?ncia 24h e suporte humanizado.\n\nSeu ve?culo atualmente:\n\n1?? J? possui cobertura\n2?? Ainda n?o possui cobertura"
+    ],
+    "templates_abertura_quente": [
+      "Perfeito, {nome}. Me passa modelo, ano e versao pra eu seguir com a simulacao.",
+      "Boa, {nome}. Se quiser, eu ja confiro a condicao do seu veiculo agora.",
+      "Show, {nome}. Me manda modelo + ano que eu continuo daqui."
+    ],
+    "templates_abertura_morno": [
+      "Oi, {nome}. Posso te fazer uma pergunta rapida sobre seu veiculo?",
+      "Tudo certo, {nome}? Seu carro hoje ja tem seguro ou protecao?",
+      "Fala, {nome}. Hoje voce usa seguro tradicional ou protecao veicular?"
+    ],
+    "templates_abertura_frio": [
+      "Ol?, {nome}! Tudo bem? ??\n\nMeu nome ? Andr? e fa?o parte da Associa??o Simples Brasil Prote??o Veicular aqui da regi?o.\n\nHoje estamos ajudando motoristas a terem uma prote??o mais acess?vel e com atendimento mais pr?ximo.\n\nMe conta uma coisa:\n\n1?? J? possuo prote??o/seguro\n2?? Ainda n?o tenho",
+      "Oi, {nome}! Tudo certo? ??\n\nAqui ? da Simples Brasil Prote??o Veicular.\n\nEstamos entrando em contato com alguns motoristas da regi?o para apresentar uma op??o de prote??o mais acess?vel e humanizada.\n\nHoje seu ve?culo:\n\n1?? J? possui seguro/prote??o\n2?? Ainda n?o possui",
+      "Ol?, {nome}! ??\n\nSou da Associa??o Simples Brasil Prote??o Veicular.\n\nEstamos iniciando um atendimento aqui na regi?o com foco em prote??o veicular mais acess?vel e suporte humanizado.\n\nSeu ve?culo hoje:\n\n1?? J? est? protegido\n2?? Ainda n?o possui prote??o",
+      "Oi, {nome}! Tudo bem com voc?? ??\n\nAqui ? da Simples Brasil Prote??o Veicular.\n\nEstamos conversando com alguns propriet?rios de ve?culos da regi?o para entender quem j? possui prote??o e quem ainda busca uma op??o mais acess?vel.\n\nMe responde rapidinho:\n\n1?? J? tenho prote??o/seguro\n2?? N?o tenho ainda",
+      "Ol?, {nome}! ??\n\nPassando para me apresentar.\nSou consultor da Simples Brasil Prote??o Veicular aqui da regi?o.\n\nHoje muita gente est? migrando do seguro tradicional para op??es mais acess?veis com assist?ncia 24h e atendimento mais pr?ximo.\n\nSeu ve?culo atualmente:\n\n1?? J? possui cobertura\n2?? Ainda n?o possui",
+      "Oi, {nome}! Tudo certo? ??\n\nAqui ? da Simples Brasil Prote??o Veicular.\n\nEstamos realizando um atendimento regional para ajudar motoristas a protegerem seus ve?culos com valores mais acess?veis.\n\nHoje voc?:\n\n1?? J? possui seguro/prote??o\n2?? Ainda n?o protege o ve?culo",
+      "Ol?, {nome}! ??\n\nMeu nome ? Andr? e fa?o parte da Simples Brasil Prote??o Veicular.\n\nEstamos atendendo motoristas aqui da regi?o com planos mais acess?veis e assist?ncia 24h.\n\nS? me responde uma coisa para eu te orientar melhor:\n\n1?? J? tenho prote??o\n2?? N?o tenho prote??o",
+      "Oi, {nome}! Tudo bem? ??\n\nAqui ? da Simples Brasil Prote??o Veicular.\n\nNosso objetivo ? ajudar motoristas da regi?o a economizarem sem deixar o ve?culo desprotegido.\n\nHoje seu carro:\n\n1?? J? possui seguro/prote??o\n2?? Ainda n?o possui",
+      "Ol?, {nome}! ??\n\nEstamos apresentando a Simples Brasil Prote??o Veicular para alguns motoristas da regi?o.\n\nTrabalhamos com prote??o mais acess?vel, assist?ncia 24h e atendimento humanizado.\n\nSeu ve?culo hoje:\n\n1?? J? possui prote??o\n2?? Ainda n?o possui",
+      "Oi, {nome}! Tudo certo? ??\n\nAqui ? da Simples Brasil Prote??o Veicular.\n\nEstamos iniciando um atendimento regional para apresentar uma alternativa mais acess?vel de prote??o veicular.\n\nMe responde rapidinho:\n\n1?? J? tenho seguro/prote??o\n2?? Ainda n?o tenho",
+      "Ol?, {nome}! ??\n\nAqui ? da Simples Brasil Prote??o Veicular.\n\nEstamos ajudando motoristas da regi?o a conhecer op??es de prote??o mais acess?veis e com suporte mais pr?ximo no dia a dia.\n\nHoje voc?:\n\n1?? J? possui prote??o no ve?culo\n2?? Ainda n?o possui",
+      "Oi, {nome}! ??\n\nTudo bem?\n\nSou da Simples Brasil Prote??o Veicular e estamos fazendo um atendimento regional para apresentar nossa prote??o com assist?ncia 24h e suporte humanizado.\n\nSeu ve?culo atualmente:\n\n1?? J? possui cobertura\n2?? Ainda n?o possui cobertura"
+    ],
+    "ctas_quente": [
+      "1️⃣ Me passa o modelo",
+      "2️⃣ Quero simular agora",
+      "3️⃣ Falar com consultor"
+    ],
+    "ctas_morno": [
+      "1️⃣ Sim",
+      "2️⃣ Nao",
+      "3️⃣ Falar com consultor"
+    ],
+    "ctas_frio": [
+      "1️⃣ Sim",
+      "2️⃣ Nao"
+    ],
+    "ctas_lead_frio": [
+      "Hoje voce ja protege seu veiculo?\n1️⃣ Sim\n2️⃣ Nao",
+      "Seu carro hoje tem alguma protecao?\n1️⃣ Sim\n2️⃣ Nao",
+      "Hoje voce usa seguro ou protecao?\n1️⃣ Seguro\n2️⃣ Protecao veicular"
+    ],
+    "templates_ja_possui_seguro": [
+      "Entendi, {nome}. Hoje o valor e a cobertura estao tranquilos pra voce?",
+      "Perfeito, {nome}. Voce esta satisfeito com o que paga hoje?",
+      "Certo, {nome}. A cobertura atual atende bem sua necessidade?"
+    ],
+    "templates_pediu_valor": [
+      "Consigo ver isso pra voce. Se puder, me manda a placa do veiculo.",
+      "Pra te passar uma condicao certinha, o ideal e a placa do carro.",
+      "Me envia a placa do veiculo que eu confiro os dados certinhos."
+    ],
+    "templates_informou_veiculo": [
+      "Boa. Se voce tiver a placa, eu consigo consultar tudo certinho e preparar a proposta.",
+      "Perfeito. Com a placa eu consigo seguir com a cotacao sem risco de erro.",
+      "Fechado. Me manda a placa que eu continuo daqui."
+    ],
+    "templates_sem_interesse": [
+      "Tranquilo, {nome}. Obrigado pelo retorno. Se quiser comparar valor ou cobertura depois, fico a disposicao.",
+      "Perfeito, {nome}. Se mudar de ideia, eu continuo por aqui.",
+      "Sem problema, {nome}. Quando quiser retomar, posso ajudar com a cotacao."
+    ],
+    "reengajamento": [
+      "Oi {nome}, passando so pra ver se ainda quer que eu veja uma condicao pro seu veiculo.",
+      "{nome}, tudo certo? Se ainda fizer sentido, posso montar uma simulacao sem compromisso.",
+      "Oi {nome}! Quando quiser, eu ainda consigo consultar uma cotacao pro seu carro.",
+      "Tudo bem por ai? Se preferir, eu sigo com uma simulacao rapida e sem compromisso."
+    ],
+    "reengajamento_quente": [
+      "Oi {nome}, consegui uma condicao interessante aqui pro seu veiculo.",
+      "{nome}, passei rapidinho pra te mostrar uma opcao que ficou boa pra voce.",
+      "Oi {nome}! Se quiser, eu sigo com a simulacao agora."
+    ],
+    "reengajamento_morno": [
+      "Oi {nome}, passando so pra ver se ainda faz sentido seguir com a simulacao.",
+      "{nome}, tudo certo? Posso deixar a cotacao pronta sem compromisso.",
+      "Oi {nome}! Se preferir, eu te mando um resumo rapido."
+    ],
+    "reengajamento_frio": [
+      "Oi {nome} 😅 consegui uma condicao interessante aqui pro seu veiculo.",
+      "Conseguiu olhar aquela protecao, {nome}?",
+      "Qualquer duvida me chama, {nome}."
+    ],
+    "reabertura": [
+      "Olá, {nome}! 😊\nQue bom te ver novamente.\n\nComo posso te ajudar hoje?\n\n1️⃣ Cotação\n2️⃣ Dúvidas\n3️⃣ Falar com um consultor\n4️⃣ Assistência 24h\n\n📞 Assistência 24h:\n0800 940 2511",
+      "Oi, {nome}! 😊\nBom falar com você novamente.\n\nMe diz como posso ajudar:\n\n1️⃣ Cotação\n2️⃣ Dúvidas\n3️⃣ Consultor\n4️⃣ Assistência 24h\n\n📞 0800 940 2511",
+      "Olá, {nome}! 🚗\nQue bom te ver por aqui novamente.\n\nEscolha uma opção:\n\n1️⃣ Fazer cotação\n2️⃣ Tirar dúvidas\n3️⃣ Atendimento humano\n4️⃣ Assistência 24h\n\n📞 0800 940 2511",
+      "Oi, {nome}! Tudo bem? 😊\nEstou à disposição novamente.\n\nComo posso ajudar hoje?\n\n1️⃣ Cotação\n2️⃣ Dúvidas\n3️⃣ Falar com consultor\n4️⃣ Assistência 24h\n\n📞 0800 940 2511"
+    ],
+    "objeccao_caro": [
+      "Te entendo. Posso te mostrar uma opcao mais enxuta e comparar o custo-beneficio?",
+      "Faz sentido comparar bem. Quer que eu veja uma versao mais simples?",
+      "Sem problema. Posso ajustar e te mostrar algo mais leve."
+    ],
+    "objeccao_vou_pensar": [
+      "Claro, decisao importante mesmo. Posso deixar um resumo curto pra voce olhar com calma?",
+      "Sem pressa. Se quiser, eu separo a simulacao pra voce revisar depois.",
+      "Tudo certo. Se ajudar, eu te mando uma versao bem resumida."
+    ],
+    "fechamento": [
+      "Perfeito. Me confirma modelo, ano, versao e cidade para eu deixar tudo certo aqui.",
+      "Show. Com esses dados eu ja consigo seguir com a formalizacao.",
+      "Se quiser, eu ja deixo a proposta pronta pra voce."
+    ],
+    "fora_horario": [
+      "Oi! Recebi sua mensagem. Nosso atendimento volta no horario comercial e ja te respondo certinho.",
+      "Mensagem recebida. Assim que o atendimento abrir eu continuo com voce por aqui.",
+      "Opa, vi sua mensagem aqui. No horario comercial eu te retorno rapidinho."
+    ]
+  },
+  "fipe": {
+    "planos": {
+      "passeio": "PASSEIO",
+      "taxi": "TAXI",
+      "uber": "APP/UBER",
+      "utilitario": "UTILITARIO",
+      "moto": "MOTO"
+    },
+    "produtos_inclusos": {
+      "passeio": [
+        "Roubo e furto",
+        "Colisao",
+        "Perda total",
+        "Incendio",
+        "Fenomenos da natureza",
+        "Assistencia 24h",
+        "Clube de beneficios"
+      ],
+      "taxi": [
+        "Roubo e furto",
+        "Colisao",
+        "Perda total",
+        "Incendio",
+        "Fenomenos da natureza",
+        "Assistencia 24h",
+        "Clube de beneficios",
+        "Dias parados"
+      ],
+      "uber": [
+        "Roubo e furto",
+        "Colisao",
+        "Perda total",
+        "Incendio",
+        "Fenomenos da natureza",
+        "Assistencia 24h",
+        "Clube de beneficios"
+      ],
+      "utilitario": [
+        "Roubo e furto",
+        "Colisao",
+        "Perda total",
+        "Incendio",
+        "Assistencia 24h"
+      ],
+      "moto": [
+        "Roubo e furto",
+        "Perda total",
+        "Incendio",
+        "Assistencia 24h"
+      ]
+    }
+  }
+}
